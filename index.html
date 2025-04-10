@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="uk" itemscope itemtype="https://schema.org/WebPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,12 @@
     <meta name="keywords" content="бакалаврська робота, студентський проєкт, веброзробка" />
     <meta name="author" content="Турчин Аліна Дмитрівна" />
 
+    <!-- Open Graph -->
+    <meta property="og:title" content="Bookstore - Бакалаврська робота">
+    <meta property="og:description" content="Онлайн-магазин книг — студентський проєкт, що демонструє вебсистему з управління замовленнями, каталогом та користувачами.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/images/landing-preview.jpg" />
+    <meta property="og:url" content="https://example.com" />
 
     <title>Bookstore - Бакалаврська робота</title>
 
@@ -17,10 +23,51 @@
 
     <link rel="stylesheet" href="css/styles.css">
 
-
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Бакалаврська робота: Інформаційна вебсистема онлайн-магазину з продажу книг",
+            "description": "Цей вебсайт призначений для представлення бакалаврської роботи, яка охоплює розробку веб-додатку для онлайн-магазину книг.",
+            "publisher": {
+                "@type": "Person",
+                "name": "Турчин Аліна Дмитрівна"
+            }
+        }
+    </script>
 
 </head>
+
 <body>
-Бакалаврська робота: Інформаційна вебсистема онлайн-магазину з продажу книг
+<header role="banner">
+    <nav role="navigation" aria-label="Головна навігація">
+        <ul>
+            <li><a href="#description" aria-label="Перейти до опису проєкту">Опис проєкту</a></li>
+            <li><a href="#contact" aria-label="Перейти до контактної інформації">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main role="main">
+
+    <h1 id="main-heading">>Інформаційна вебсистема онлайн-магазину з продажу книг</>
+
+        <section id="description" aria-labelledby="project-description-heading">
+                <h2 id="project-description-heading">Опис проєкту</h2>
+                <p>
+                    Вебдодаток онлайн-магазину, що дозволяє користувачам зручно шукати, переглядати та купувати книги,
+                    реєструватися на сайті та управляти своїми замовленнями.
+                </p>
+        </section>
+</main>
+
+<footer role="contentinfo" id="contact" aria-labelledby="footer-contact-heading">
+<h3 id="footer-contact-heading">Контакти</h3>
+    <address>
+        Email: <a href="mailto:turcinalina279@gmail.com"  aria-label="Написати листа на turcinalina279@gmail.com">turcinalina279@gmail.com</a>
+    </address>
+    <p>&copy; 2025, Всі права захищено.</p>
+</footer>
 </body>
+
 </html>
