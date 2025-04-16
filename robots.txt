@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://trcn_a.github.io/bachelor-landing/sitemap.xml
