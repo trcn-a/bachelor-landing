@@ -2,10 +2,11 @@
 <html itemscope itemtype="https://schema.org/WebPage" lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Презентаційна сторінка бакалаврського проєкту — онлайн-магазин книг. Опис основних функцій та можливостей розробленої системи." />
-    <meta name="keywords" content="бакалаврська робота, студентський проєкт, веброзробка" />
-    <meta name="author" content="Турчин Аліна Дмитрівна" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Презентаційна сторінка бакалаврського проєкту — онлайн-магазин книг. Опис основних функцій та можливостей розробленої системи."
+          name="description"/>
+    <meta content="бакалаврська робота, студентський проєкт, веброзробка" name="keywords"/>
+    <meta content="Турчин Аліна Дмитрівна" name="author"/>
 
     <!-- Open Graph -->
     <meta content="Bookstore - Бакалаврська робота" property="og:title">
@@ -17,10 +18,10 @@
 
     <title>Bookstore - Бакалаврська робота</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+    <link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="favicon/site.webmanifest" rel="manifest">
     <link href="css/styles.css" rel="stylesheet">
 
     <script type="application/ld+json">
@@ -39,26 +40,26 @@
 
 <body>
 <header role="banner">
-    <h2>Бакалаврська робота</h2>
+    <h2> Кваліфікаційна робота бакалавра</h2>
     <nav aria-label="Головна навігація" role="navigation">
-        <button class="hamburger" aria-label="Open navigation menu">☰</button>
+        <button aria-label="Open navigation menu" class="hamburger">☰</button>
         <ul id="nav-list">
             <li><a aria-label="Перейти до опису проєкту" href="#description">Опис проєкту</a></li>
             <li><a aria-label="Перейти до актуальності теми" href="#relevance">Актуальність теми</a></li>
             <li><a aria-label="Перейти до мети дослідження" href="#goal">Мета та основні завдання</a></li>
-            <li><a aria-label="Перейти до очікуваних результатів" href="#results">Очікувані результати</a></li>
+            <li><a aria-label="Перейти до  результатів" href="#results">Результати</a></li>
             <li><a aria-label="Перейти до контактної інформації" href="#contact">Контакти</a></li>
         </ul>
     </nav>
 </header>
 
 
-
 <main role="main">
+
     <section id="title">
         <img alt="Логотип університету" class="logo" src="favicon/android-chrome-192x192.png"/>
         <h1>Інформаційна вебсистема онлайн-магазину з продажу книг</h1>
-        <h2 lang="en">Information Web System for Online Bookstore</h2>
+        <h2 lang="en">Information Web System for an Online Bookstore</h2>
     </section>
 
     <!-- Опис -->
@@ -66,28 +67,26 @@
     <section aria-labelledby="project-description-heading" id="description">
         <h2 id="project-description-heading">Опис проєкту</h2>
         <p>
-            Bookstore — це сучасна веб-система для онлайн-магазину книг, яка поєднує зручний та інтуїтивно зрозумілий
+            Bookstore — це сучасна вебсистема для онлайн-магазину книг, яка поєднує зручний та інтуїтивно зрозумілий
             інтерфейс для покупців і потужний функціонал для адміністраторів. Система забезпечує
             простий процес пошуку, перегляду, купівлі книг, а також можливість відслідковувати свої замовлення
             та керувати профілем. Користувачі можуть легко додавати книги до кошика, до списку обраного,
             оформляти замовлення та залишати відгуки на книги.
 
             Адміністратори, у свою чергу, мають доступ до спеціальної панелі для управління асортиментом
-            книжкової продукції, обробки замовлень та управління відгуками.
-
+            книг, відгуками та обробки замовлень.
         </p>
-
 
         <div class="keywords">
             <h3>Ключові слова:</h3>
             <div class="tags-container">
+                <span class="tag">Java</span>
                 <span class="tag">Spring Boot</span>
                 <span class="tag">Thymeleaf</span>
                 <span class="tag">PostgreSQL</span>
                 <span class="tag">Spring Security</span>
+                <span class="tag">MVC</span>
                 <span class="tag">онлайн-магазин</span>
-                <span class="tag">електронна комерція</span>
-                <span class="tag">веб-розробка</span>
             </div>
         </div>
     </section>
@@ -98,16 +97,24 @@
     <section aria-labelledby="relevance-heading" id="relevance">
         <h2 id="relevance-heading">Актуальність теми</h2>
         <p>
-            Розвиток онлайн-торгівлі на сьогодні є одним з основних напрямків в бізнесі, а особливо важливим є
-            забезпечення зручного та безпечного досвіду для користувачів. Онлайн-магазини книг надають можливість
-            покупцям не тільки придбати книги, але й отримати рекомендації, відгуки та мати доступ до широкого
-            асортименту продукції. Актуальність розробки зумовлена:
+            Електронна комерція стрімко розвивається, відповідаючи
+            сучасним потребам книжкового ринку.
+            Онлайн-магазини забезпечують швидкий доступ до широкого асортименту товарів,
+            даючи змогу переглядати
+            детальну інформацію про книги та читати відгуки інших користувачів. Водночас, зручність інтерфейсу
+            безпосередньо впливає
+            на рішення клієнтів щодо здійснення покупки, що підкреслює необхідність розробки якісних
+            інформаційних вебсистем для онлайн-продажів.
+        </p>
+        <p>
+            Актуальність створення таких систем зумовлена:
         </p>
         <ul>
-            <li>Зростанням попиту на онлайн-покупки книг</li>
-            <li>Необхідністю автоматизації процесів продажу та обліку</li>
-            <li>Потребою в якісних веб-рішеннях для книжкового бізнесу</li>
+            <li>Зростанням попиту на онлайн-покупки книг.</li>
+            <li>Необхідністю автоматизації процесів продажу.</li>
+            <li>Потребою в сучасних вебрішеннях для ефективного управління асортиментом і замовленнями.</li>
         </ul>
+
     </section>
 
     <!-- Мета та завдання -->
@@ -115,29 +122,35 @@
     <section aria-labelledby="goal-heading" id="goal">
         <h2 id="goal-heading">Мета роботи</h2>
         <p>
-            Розробити повноцінну вебсистему для онлайн магазину книг, яка забезпечить користувачів можливістю
-            переглядати
-            каталог книг, здійснювати покупку, залишати відгуки, а адміністраторам — керувати контентом магазину.
+            Реалізація
+            інформаційної вебсистеми онлайн-магазину книг, яка забезпечує зручну купівлю
+            товарів для користувачів, ефективне управління асортиментом і замовленнями
+            для адміністраторів, а також безпеку даних, інтуїтивно зрозумілий інтерфейс і
+            сучасний дизайн
         </p>
         <div aria-labelledby="tasks-heading" id="tasks">
             <h3 id="tasks-heading">Основні завдання</h3>
             <ul>
-                <li>Огляд технологій для розробки системи</li>
-                <li>Проектування та реалізація бази даних для збереження інформації</li>
+                <li>Огляд сучасних технологій, інструментів і архітектурних підходів для розробки системи.</li>
+                <li>Проектування та реалізація бази даних для збереження інформації.</li>
                 <li>Розробка архітектури вебсистеми.</li>
+                <li>Налаштування механізмів аутентифікації та авторизації.</li>
                 <li>Реалізація користувацького інтерфейсу.</li>
-                <li>Тестування та оптимізація роботи системи.</li>
+                <li>Аналіз роботи розробленого онлайн-магазину.</li>
             </ul>
         </div>
     </section>
 
 
-    <!-- Очікувані результати -->
+    <!-- Результати -->
 
     <section aria-labelledby="results-heading" id="results">
-        <h2 id="results-heading">Очікувані результати</h2>
-        <p>Результатом є створена повноцінна вебсистема онлайн-магазину книг
-           з інтуітивно зрозумілим інтерфейсом та усіма необхідними функціональними можливостями.
+        <h2 id="results-heading">Отримані результати</h2>
+        <p>
+            Розроблено інформаційну вебсистему
+            онлайн-магазину книг, яка відповідає сучасним вимогам до зручності,
+            продуктивності та безпеки. Функціонал системи охоплює можливості як для покупців, так і для адміністраторів,
+            що дозволяє ефективно взаємодіяти з ресурсом відповідно до ролі користувача.
         </p>
 
         <div class="result-row">
@@ -146,29 +159,50 @@
                     <h3>Для покупців</h3>
                     <ul>
                         <li>Перегляд каталогу книг</li>
-                        <li>Система пошуку та фільтрації товарів</li>
+                        <li>Фільтрація, сортування та пошук</li>
                         <li>Додавання книг до кошику та оформлення замовлень</li>
                         <li>Перегляд історії замовлень</li>
                         <li>Додавання книг до списку обраного</li>
+                        <li>Редагування профілю</li>
                         <li>Система відгуків</li>
                     </ul>
                 </div>
                 <div class="result-text">
                     <h3>Для адміністраторів</h3>
                     <ul>
-                        <li>Управління товарами</li>
-                        <li>Моніторинг замовлень</li>
-                        <li>Управління відгуками</li>
+                        <li>Управління книгами: редагування та додавання нових</li>
+                        <li>Моніторинг замовлень: перегляд та зміна статусу</li>
+                        <li>Управління відгуками: перегляд та видалення</li>
                     </ul>
                 </div>
 
             </div>
+            <div class="slider">
+                <div class="dots-container"></div>
 
-            <div class="image-container">
-                <img src="images/bookstore-main-page.webp" alt="Your image" class="image" loading="lazy">
+                <div class="image-container">
+                    <div class="image">
+                        <img alt="Main Page" src="images/main.png">
+                    </div>
+                    <div class="image">
+                        <img alt="Book" src="images/book.png">
+                    </div>
+                    <div class="image">
+                        <img alt="Order" src="images/order.png">
+                    </div>
+                    <div class="image">
+                        <img alt="Admin Books" src="images/admin-books.png">
+                    </div>
+                    <div class="image">
+                        <img alt="Admin Orders" src="images/admin-order.png">
+                    </div>
+
+                </div>
+
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
             </div>
         </div>
-
 
     </section>
 
@@ -177,14 +211,14 @@
 <footer aria-labelledby="footer-contact-heading" id="contact" role="contentinfo">
     <h3 id="footer-contact-heading">Контакти</h3>
     <address>
-        <p>Студентка: Турчин Аліна</p>
+        <p>Здобувач групи ІН-11: Турчин Аліна</p>
         Email: <a aria-label="Написати листа на turcinalina279@gmail.com" href="mailto:turcinalina279@gmail.com">turcinalina279@gmail.com</a>
-        <p>Git репозиторії:
-            <a aria-label="Перейти до репозиторію GitHub" href="https://github.com/trcn_a/project-bookstore" target="_blank">GitHub
-                                                                                                                             Репозиторій</a>
-        </p>
+        <p>Код проєкту доступний на <a aria-label="Перейти до репозиторію GitHub"
+                                       href="https://github.com/trcn-a/project-bookstore" rel="noopener noreferrer"
+                                       target="_blank">GitHub</a></p>
+
     </address>
-    <p>&copy; 2025 Турчин Аліна. Бакалаврська робота. Всі права захищено.</p>
+    <p>&copy; 2025 Турчин Аліна. Кваліфікаційна робота бакалавра. Всі права захищено.</p>
 </footer>
 
 <script src="js/index.js"></script>
