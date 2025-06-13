@@ -269,7 +269,7 @@ iframe {
 
 .dot {
     display: inline-block;
-    width: 12px;
+    width: 30px;
     height: 4px;
     background-color: #bbb;
     border-radius: 2px;
@@ -280,7 +280,7 @@ iframe {
 
 .dot.active {
     background-color: #573192;
-    width: 20px;
+    width: 40px;
 }
 
 footer {
